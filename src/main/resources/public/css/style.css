@@ -1,0 +1,85 @@
+.value-props {
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+}
+
+.value-prop {
+  margin-top: 1rem; }
+
+.value-img {
+  display: block;
+  text-align: center;
+  width: 80px;
+  length: 80px;
+  margin: 2.5rem auto 0; }
+
+.value-prop {
+  margin-top: 3.5rem; }
+
+.value-props {
+  margin-top: 3.5rem;
+  margin-bottom: 4rem; }
+
+.navbar{
+  margin-top: 2.5rem;
+  display: block;
+  width: 100%;
+  height: 6.5rem;
+  background: #fff;
+  z-index: 99;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-42%, 0%)
+}
+
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+}
+
+.navbar-link {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+  color: #222;
+}
+
+.docs-section {
+  /*border-top: 1px solid #eee; */
+  padding: 4rem 0;
+  margin-bottom: 0;
+  pointer-events: none; /* Added this thing*/
+}
+
+.no-underline {
+  text-decoration:none;
+}
+
+.docs-header {
+  font-size: 1.8rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+}
+
+.footer{
+  border-top: 1px solid #eee;
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+.justify{
+  text-align: justify;
+}

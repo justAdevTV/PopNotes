@@ -1,24 +1,53 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head></head>
-<body>
-<center>
-    <form align="justify" action="/form" method="get">
-        <label>Phone Number
-            <input type="text" name="phoneNum" style="length:1024;height:25px;">
-        </label>
-        <br>
-        <label>Time interval
-            <input type="text" name="delay" style="length:1024;height:25px;">
-        </label>
-        <br>
-        <label>Question
-            <input type="text" name="questions" style="length:1024;height:25px;">
-        </label>
-        <br>
-        <button>Send Info</button>
-    </form>
+  <head>
+    <!-- Title -->
+    <title>Pop Notes</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
 
-</center>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body class="code-snippets-visible">
+  <!-- Title -->
+    <div class="container">
+      <section class="header">
+        <h1 class="title">Pop Notes</h1>
+        <!-- Contact -->
+        <div>
+          <p>Enter your phone number below along with how often you'd like to be notified. Enter the fact you'd like to be told in the text box below.</p>
+          <div class="docs-example docs-example-forms">
+           <form action="/form" method="get">
+              <div class="row">
+                <div class="six columns">
+                  Your Phone Number
+                  <input class="u-full-width" type="text" name="phoneNum" placeholder="1 (800)-Hot-Line">
+                </div>
+                <div class="six columns">
+                  Message Delay Time
+                  <input class="u-full-width" type="text" name="delay" placeholder="0-100">
+                </div>
+              </div>
+              <label for="exampleMessage">Message</label>
+              <textarea class="u-full-width" placeholder="Enter message here..." type="text" name="questions"></textarea>
+              <input class="button-primary" type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <h6>Created By Team Pop Nerds</h6>
+        </div>
+      </div>
+    </body>
 </html>
